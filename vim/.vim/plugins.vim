@@ -52,6 +52,10 @@ Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 
+" mohamed fzf plugin
+Plug 'junegunn/fzf'
+", { 'dir': '~/.fzf', 'do': './install --all' }
+
 " stylize
 Plug 'xero/nerdtree'
 Plug 'itchyny/lightline.vim'

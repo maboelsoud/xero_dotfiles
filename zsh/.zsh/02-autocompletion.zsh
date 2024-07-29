@@ -20,7 +20,9 @@ autoload -Uz compinit
 compinit -u
 
 # mohamed completion
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /Users/soud/dev/xero_dotfiles/zsh/fzf-tab/fzf-tab.plugin.zsh
 
 # If unset, the cursor is set to the end of the word if completion is
 # started. Otherwise it stays there and completion is done from both ends.

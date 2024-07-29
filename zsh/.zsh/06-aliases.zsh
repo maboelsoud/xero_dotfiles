@@ -38,7 +38,20 @@ alias la="gls -lAhF ${colorflag}"
 alias lsd="gls -lhF ${colorflag} | grep --color=never '^d'"
 
 # Always use color output for `ls`
-# alias ls="command ls ${colorflag}"
+alias ls="command ls ${colorflag}"
+
+# Mohamed stuff
+alias ban="~/.zsh/random_banner._zsh"
+alias dev='cd ~/dev'
+alias cat='bat'
+# junegunn/seoul256.vim (light)
+# export FZF_DEFAULT_OPTS='--color=bg+:#D9D9D9,bg:#E1E1E1,border:#C8C8C8,spinner:#719899,hl:#719872,fg:#616161,header:#719872,info:#727100,pointer:#E12672,marker:#E17899,fg+:#616161,preview-bg:#D9D9D9,prompt:#0099BD,hl+:#719899'
+# arcticicestudio/nord-vim
+export FZF_DEFAULT_OPTS='--color=bg+:#3B4252,bg:#2E3440,spinner:#81A1C1,hl:#616E88,fg:#D8DEE9,header:#616E88,info:#81A1C1,pointer:#81A1C1,marker:#81A1C1,fg+:#D8DEE9,prompt:#81A1C1,hl+:#81A1C1'
+alias python='python3.10'
+
+# alias fzf='bat'
+
 
 alias ls="gls -hF --color=auto"
 alias ll="gls -lahF --color=auto"

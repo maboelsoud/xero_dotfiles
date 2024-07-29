@@ -15,8 +15,8 @@
 # ░░░░░░░░░░
 
 #ICO_DIRTY="*"
-#ICO_DIRTY="↯"
-ICO_DIRTY="⚡"
+ICO_DIRTY="↯"
+# ICO_DIRTY="⚡"
 
 ICO_AHEAD="↑"
 #ICO_AHEAD=""
