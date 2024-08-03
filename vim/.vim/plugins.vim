@@ -46,7 +46,9 @@ else
 endif
 let g:deoplete#enable_at_startup = 1
 
-Plug 'ajh17/VimCompletesMe'
+" Plug 'ajh17/VimCompletesMe'
+Plug 'vim-scripts/VimCompletesMe'
+Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
 Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'
@@ -57,7 +59,8 @@ Plug 'junegunn/fzf'
 ", { 'dir': '~/.fzf', 'do': './install --all' }
 
 " stylize
-Plug 'xero/nerdtree'
+" Plug 'xero/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/colorizer'
