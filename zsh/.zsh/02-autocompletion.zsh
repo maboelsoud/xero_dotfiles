@@ -27,6 +27,9 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # mohamed: sourcing the  fzf tab plugin that is symlinked using stow
 source "$HOME/.fzf-tab/fzf-tab.plugin.zsh"
 
+# mohamed: add ctr-r for fzf
+# Use fzf when doing CTRL-r
+[[ -e "/usr/local/opt/fzf/shell/key-bindings.zsh" ]] && source "/usr/local/opt/fzf/shell/key-bindings.zsh" 
 
 # If unset, the cursor is set to the end of the word if completion is
 # started. Otherwise it stays there and completion is done from both ends.
