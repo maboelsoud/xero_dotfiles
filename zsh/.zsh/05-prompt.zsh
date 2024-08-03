@@ -86,7 +86,8 @@ GIT_PROMPT() {
       echo "${COLOR_NORMAL}${ref}${dirty}${stat}"
     ;;
     ascii)
-      echo "%{$bg[magenta]%}%F{cyan}▓▒░ %F{black}${ref}${dirty}${stat} $reset_color%F{magenta}▒░"
+      # echo "%{$bg[magenta]%}%F{cyan}▓▒░ %F{black}${ref}${dirty}${stat} $reset_color%F{magenta}▒░"
+      echo "%{$bg[magenta]%}%F{cyan}█▓▒░ %F{black}${ref}${dirty}${stat} $reset_color%F{magenta}█▓▒░"
     ;;
     arrows)
       echo "%{$bg[magenta]%}%F{cyan} %F{black}${ref}${dirty}${stat} $reset_color%F{magenta}"
@@ -126,3 +127,5 @@ ${USER_LEVEL}┗━ ━ %f'
 PROMPT='${USER_LEVEL}[${COLOR_NORMAL}%~${USER_LEVEL}]$(GIT_PROMPT)━━ ━ %f'
 ;;
 esac
+
+# PROMPT='%{$bg[cyan]%} cow[%~] %{$bg[magenta]%}%F{cyan}▓▒░moo$reset_color'
