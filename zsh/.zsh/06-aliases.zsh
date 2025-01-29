@@ -53,6 +53,15 @@ alias python='python3.10'
 # alias fzf='bat'
 
 
+# mohamed: llm alias
+function lm() {
+  if [[ -z "$1" ]]; then
+    eval "llm chat"
+  else
+    eval "llm \"$@\"" 
+  fi
+}
+
 alias ls="gls -hF --color=auto"
 alias ll="gls -lahF --color=auto"
 alias lsl="gls -lhF --color=auto"
