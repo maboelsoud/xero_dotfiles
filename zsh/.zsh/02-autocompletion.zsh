@@ -20,8 +20,8 @@ autoload -Uz compinit
 compinit -u
 
 # mohamed completion
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source /Users/soud/dev/xero_dotfiles/zsh/fzf-tab/fzf-tab.plugin.zsh
 
 # mohamed: sourcing the  fzf tab plugin that is symlinked using stow

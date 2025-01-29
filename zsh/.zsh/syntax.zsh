@@ -15,12 +15,12 @@
 # ░░░░░░░░░░
 #
 #█▓▒░ source the plugin https://github.com/zsh-users/zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # if things don't work, enable this
-# ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
 # ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/opt/zsh-syntax-highlighting/share/zsh-syntax-highlighting/highlighters
-ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters 
+# ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/highlighters 
 
 #█▓▒░ color overrides
 ZSH_HIGHLIGHT_STYLES[default]='none'
